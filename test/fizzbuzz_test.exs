@@ -1,4 +1,4 @@
-defmodule FizzBuzzTest do
+defmodule Kata.FizzBuzzTest do
   use ExUnit.Case
 
   alias Kata.FizzBuzz

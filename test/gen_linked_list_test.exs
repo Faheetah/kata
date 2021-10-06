@@ -1,4 +1,4 @@
-defmodule GenLinkedListTest do
+defmodule Kata.GenLinkedListTest do
   use ExUnit.Case
 
   alias Kata.GenLinkedList
