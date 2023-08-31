@@ -1,4 +1,10 @@
 defmodule Kata.GenLinkedList do
+  @moduledoc """
+  Processes are objects in BEAM. Implement a linked list using genserver.
+  This is by no means effecient use of genservers, but demonstrates the logic
+  of a linked list.
+  """
+
   use GenServer
 
   defstruct [:value, :next]

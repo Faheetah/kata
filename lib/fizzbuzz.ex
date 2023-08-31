@@ -1,4 +1,8 @@
 defmodule Kata.FizzBuzz do
+  @moduledoc """
+  Simple fizzbuzz implementation using pattern matching
+  """
+
   def run(number) do
     Enum.map(1..number, fn n ->
       case {rem(n, 3), rem(n, 5)} do
